@@ -1,0 +1,226 @@
+@media (max-width: 1400px) {
+    .md-content {
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+}
+@media (max-width:1046px) {
+    .update-tittle h1 {
+        width: 30%;
+      }
+}
+@media (max-width: 1024px) {
+    .logo span {
+        font-size: 20px;
+     }
+    .primary-menu ul li a {
+        padding: 0 10px;
+        }
+        .video-content h3 {
+            font-size: 44px;
+         }
+         .video-content p {
+            font-size: 16px;
+           }
+           .p-content ul li {
+             margin: 15px;
+        }
+        .p-header h1 {
+  margin-bottom: 22.5px;
+        }
+        .p-header h5 {
+            margin-bottom: 19.4px;
+        }
+        .sectoin-tittle h2 {
+            font-size: 38.9px;
+             padding-bottom: 68.3px;
+        }
+        .update-tittle h1 {
+           font-size: 35.5px;
+        }
+          
+}
+/* main css */
+.primary-menu span{
+   display: none;
+}
+.primary-menu ul li ul li{
+    background-color: white !important;
+}
+.mobile-check {
+opacity: 0;
+}
+
+@media (max-width:910px) {
+    .update-member img {
+         width: 100%;
+      }
+      .update-bio {
+  width: 100%;
+    }
+}
+@media (max-width: 800px) {
+    .header-logo {
+        width: 100%;
+        text-align: center;
+    }
+    .logo img {
+        height: 60px;
+        float: inherit;
+    }
+    .logo span {
+          position: relative;
+        top: -24px;
+    }
+    .header-menu {
+        width: 100%;
+        text-align: center;
+      }
+   
+    .header-button {
+        width: 100%;
+        text-align: center;
+    }
+    .primary-menu span{
+        font-size: 21px;
+        color: rgb(14, 127, 172);
+        display: block;
+    }
+    .video-content {
+        width: 100%;
+    }
+    .video {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .sectoin-tittle p {
+        font-size: 24.6px;
+      }
+      .sectoin-tittle h1 {
+        font-size: 46.6px;
+    }
+    .service-box {
+        width: 47.3%;
+    }
+    .p-item {
+        width: 100%;
+   }
+   .sectoin-tittle h2 {
+	font-size: 32.9px;
+	padding-bottom: 51.3px;
+}
+.member {
+	width: 48%;
+	margin-bottom: 16px;
+}
+.update-tittle h1 {
+        width: 100%;
+	padding: 28.4px 10px;
+}
+  .update-tittle p {
+    width: 100%;
+    padding: 41px 10px;
+}
+
+.header-menu ul {
+    opacity: 0;
+   visibility: hidden;
+  height: 0;
+}
+.primary-menu .mobile-check:checked ~ ul{
+    opacity: 1;
+    visibility: visible;
+   height:100%;
+}
+.primary-menu ul li {
+	display: block;
+}
+.primary-menu ul li a {
+line-height: 44px;
+}
+.primary-menu ul li ul {
+top: -136px;
+}
+.primary-menu span {
+	position: absolute;
+	left: 335px;
+	top: 70px;
+	pointer-events: none;
+}
+.mobile-check {
+	width: 20px;
+	height: 20px;
+	opacity: 0;
+	cursor: pointer;
+}
+.primary-menu span {
+left: 386px;
+}
+	
+
+}
+@media (max-width: 768px){
+    .banner-content h2 {
+        font-size: 48px;
+      }
+      .feadback-tittle h2 {
+        font-size: 36.5px;
+        }
+        .feadback-item {
+            width: 100%;
+          }
+          .content-form {
+            width: 100%;
+        }
+        .content-map {
+            width: 100%;
+        }
+        .primary-menu span {
+            left: 375px;
+        }
+}
+@media (max-width: 640px) {
+    .default-input {
+        width: 100%;
+       margin-bottom: 15px;
+    }
+    .update-member {
+        width: 100%;
+        margin-bottom: 18px;
+    }
+    .primary-menu span {
+        left: 311px;
+    }
+}
+@media (max-width: 550px) {
+    .primary-menu span {
+        left: 267px;
+    }
+}
+@media (max-width: 462px){
+    .banner-content h2 {
+        font-size: 40px;
+      }
+      .defult-btn {
+       padding: 20px 18px;
+       display: block;
+       margin-bottom: 12px;
+     }
+     .service-box {
+        width: 100%;
+    }
+    .member {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .news-tittle p {
+        font-size: 23.2px;
+      }
+      .news-tittle h2 {
+        font-size: 39.2px;
+    }
+    .primary-menu span {
+        left: 222px;
+    }
+}
